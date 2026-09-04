@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="ConnexionManager">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2140"/>
+      <stop offset="0.55" stop-color="#1a53b1"/>
+      <stop offset="1" stop-color="#3186f6"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="150" rx="28" fill="url(#sheen)"/>
+  <circle cx="1060" cy="70" r="6" fill="#8ec6ff" opacity="0.5"/>
+  <circle cx="1110" cy="140" r="4" fill="#bcdcff" opacity="0.5"/>
+  <circle cx="1030" cy="200" r="5" fill="#59a6ff" opacity="0.5"/>
+  <!-- icone reseau (noeuds relies) -->
+  <g transform="translate(96,74) scale(6.4)" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="9" y="2" width="6" height="6" rx="1" fill="#ffffff" stroke="none"/>
+    <rect x="2" y="16" width="6" height="6" rx="1" fill="#ffffff" stroke="none"/>
+    <rect x="16" y="16" width="6" height="6" rx="1" fill="#ffffff" stroke="none"/>
+    <path d="M12 8v4M12 12H5v4M12 12h7v4"/>
+  </g>
+  <text x="250" y="140" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">ConnexionManager</text>
+  <text x="253" y="192" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="23" fill="#cfe4ff">Clients · WireGuard · Winbox · RDP · SSH · UniFi · Datto · cPanel</text>
+  <text x="253" y="230" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="16" fill="#9ec3f5" letter-spacing="2">WINDOWS · ELECTRON · REACT · TYPESCRIPT</text>
+</svg>
